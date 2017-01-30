@@ -25,11 +25,11 @@ php artisan key:generate
 
 4. Use su aplicacion de gestion de mysql preferida y crear una base de datos
 5. en el directorio principal del proyecto hay un archivo llamado .env, debe modificar las siguientes llaves del archivo:
-- DB_HOST. La direccion de su servidor mysql
-- DB_PORT. El puerto donde escucha mysql
-- DB_DATABASE. El nombre de la base de datos que acaba de crear
-- DB_USERNAME. El usuario para acceder a mysql
-- DB_PASSWORD. La contraseña para acceder a mysql.
+ - DB_HOST. La direccion de su servidor mysql
+ - DB_PORT. El puerto donde escucha mysql
+ - DB_DATABASE. El nombre de la base de datos que acaba de crear
+ - DB_USERNAME. El usuario para acceder a mysql
+ - DB_PASSWORD. La contraseña para acceder a mysql.
 
 6. Ejecute:
 ```
