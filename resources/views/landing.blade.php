@@ -16,6 +16,7 @@
 
       <!-- Custom CSS -->
       <link href="{{ url("css/landing.css") }}" rel="stylesheet">
+      <link href="{{ url('css/bootstrapValidator.min.css') }}" rel="stylesheet"
 
       <!-- Custom Fonts -->
       <link href="{{ url('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
@@ -101,44 +102,14 @@
 
          </div><!-- Main Section -->
       </div>      
-      <!-- Footer -->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-10 col-lg-offset-1 text-center">
-                  <h4><strong>MOVESA</strong>
-                  </h4>
-                  <p>1a. y 3a. Avenida, 16 calle<br>Bo. La Guardia, San Pedro Sula, Honduras</p>
-                  <ul class="list-unstyled">
-                     <li><i class="fa fa-phone fa-fw"></i>Tel. (504) 2557-7916</li>
-                     <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">servicioalcliente@movesa.com</a>
-                     </li>
-                  </ul>
-                  <br>
-                  <ul class="list-inline">
-                     <li>
-                        <a href="#"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
-                     </li>
-                     <li>
-                        <a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
-                     </li>
-                     <li>
-                        <a href="#"><i class="fa fa-dribbble fa-fw fa-2x"></i></a>
-                     </li>
-                  </ul>
-                  <hr class="small">
-                  <p class="text-muted">Copyright &copy; MOVESA 2017</p>
-               </div>
-            </div>
-         </div>
-      </footer>
 
       <!-- jQuery -->
-      <script src="js/jquery.js"></script>
+      <script src="{{ url('js/jquery.js') }}"></script>
 
       <!-- Bootstrap Core JavaScript -->
-      <script src="js/bootstrap.min.js"></script>
-
+      <script src="{{ url('js/bootstrap.min.js') }}"></script>
+      <script src="{{ url('js/bootstrapValidator.min.js') }}"></script>
+      <script src="{{ url('js/landing.js') }}"></script>
 
    </body>
 

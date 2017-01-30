@@ -109,6 +109,13 @@ label{
    box-shadow: rgba(0,0,0,0.30) 0px 0px 3px; 
    padding: 10px;
 }
+
+.has-feedback label~.form-control-feedback {
+    top: 45px;
+}
+.fa.form-control-feedback {
+    line-height: 25px;
+}
 /*----- Helper -----*/
 
 html * {
