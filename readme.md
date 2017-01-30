@@ -3,11 +3,11 @@
 La presente es una aplicacion de ejemplo que muestra una landing page, y un pequeño formulario, ofreciendo un cupon por la compra de un producto determinado.
 Una vez que el visitante ingresa sus datos, son enviados al servidor donde son almacenados y el numero de cupon generado, el cual queda asociado a los datos del usuario creado
 
-Software que necesitara
-PHP 5.4
-Servidor Web
-Composer. Manejador de dependencias de PHP ([getcomposer.org](http://getcomposer.org))
-Git. Opcional, para clonar el repositorio
+Software que necesitara:
+- PHP 5.4
+- Servidor Web
+- Composer. Manejador de dependencias de PHP ([getcomposer.org](http://getcomposer.org))
+- Git. Opcional, para clonar el repositorio
 
 ### Instrucciones
 1. Si usa git, clone el repositorio en el directorio apropiado de su servidor web.
